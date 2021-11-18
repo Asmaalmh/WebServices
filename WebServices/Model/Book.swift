@@ -7,8 +7,7 @@
 
 import Foundation
 
-struct Book: Codable {
-
+struct Book: Decodable {
     // MARK: - Properties
     let title: String
     let author: String
