@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		CC8C20DA274517450063FA2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8C20D9274517450063FA2D /* AppDelegate.swift */; };
 		CC8C20DC274517450063FA2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8C20DB274517450063FA2D /* SceneDelegate.swift */; };
-		CC8C20DE274517450063FA2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8C20DD274517450063FA2D /* ViewController.swift */; };
 		CC8C20E1274517450063FA2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8C20DF274517450063FA2D /* Main.storyboard */; };
 		CC8C20E3274517450063FA2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8C20E2274517450063FA2D /* Assets.xcassets */; };
 		CC8C20E6274517450063FA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8C20E4274517450063FA2D /* LaunchScreen.storyboard */; };
 		CC8C20F3274522FE0063FA2D /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8C20F2274522FE0063FA2D /* Book.swift */; };
+		CC8C20F7274577660063FA2D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8C20F6274577660063FA2D /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CC8C20D6274517450063FA2D /* WebServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebServices.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8C20D9274517450063FA2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC8C20DB274517450063FA2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CC8C20DD274517450063FA2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CC8C20E0274517450063FA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC8C20E2274517450063FA2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC8C20E5274517450063FA2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC8C20E7274517450063FA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC8C20F2274522FE0063FA2D /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		CC8C20F6274577660063FA2D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,23 +59,15 @@
 			isa = PBXGroup;
 			children = (
 				CC8C20F1274522EC0063FA2D /* Model */,
-				CC8C20EE27451D4A0063FA2D /* Networking */,
 				CC8C20D9274517450063FA2D /* AppDelegate.swift */,
+				CC8C20F6274577660063FA2D /* TableViewController.swift */,
 				CC8C20DB274517450063FA2D /* SceneDelegate.swift */,
-				CC8C20DD274517450063FA2D /* ViewController.swift */,
 				CC8C20DF274517450063FA2D /* Main.storyboard */,
 				CC8C20E2274517450063FA2D /* Assets.xcassets */,
 				CC8C20E4274517450063FA2D /* LaunchScreen.storyboard */,
 				CC8C20E7274517450063FA2D /* Info.plist */,
 			);
 			path = WebServices;
-			sourceTree = "<group>";
-		};
-		CC8C20EE27451D4A0063FA2D /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Networking;
 			sourceTree = "<group>";
 		};
 		CC8C20F1274522EC0063FA2D /* Model */ = {
@@ -157,9 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC8C20DE274517450063FA2D /* ViewController.swift in Sources */,
 				CC8C20DA274517450063FA2D /* AppDelegate.swift in Sources */,
 				CC8C20DC274517450063FA2D /* SceneDelegate.swift in Sources */,
+				CC8C20F7274577660063FA2D /* TableViewController.swift in Sources */,
 				CC8C20F3274522FE0063FA2D /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
